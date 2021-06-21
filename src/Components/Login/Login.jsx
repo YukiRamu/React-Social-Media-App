@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react';
 import "./Login.css";
-import { Row, Col, Form, Button } from 'react-bootstrap';
+import { Form, Button } from 'react-bootstrap';
 import FeedContext from "../../Contexts/FeedContext";
 import FadeIn from 'react-fade-in';
 
@@ -9,8 +9,6 @@ const Login = () => {
   const [error, setError] = useState("");
   const [user, setUser] = useState({ name: "", email: "", password: "" });
   const { dispatchUser } = useContext(FeedContext);
-
-  // console.log(loginUser);
 
   const login = (e) => {
     e.preventDefault();
@@ -63,6 +61,7 @@ const Login = () => {
             </Form.Group>
 
             <Button variant="primary" type="submit" className="logInBtn">Log in</Button>
+            
             <Button variant="outline-info" type="button"
               className="logOutBtn"
               onClick={logOut}

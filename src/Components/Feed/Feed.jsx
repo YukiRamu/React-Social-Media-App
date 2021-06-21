@@ -12,8 +12,6 @@ const Feed = () => {
   const { images, dispatchImage, alert, setAlert } = useContext(FeedContext);
   const { files } = useContext(Context);
 
-  console.log("images object is ", images);
-
   useEffect(() => {
     //set "files" into "images" state in FeetContext
     { files.length !== 0 && dispatchImage({ type: "UPLOAD", payload: files }); }
@@ -26,8 +24,8 @@ const Feed = () => {
 
   //================== increment/decrement the like count ================== 
   const handleClick = (e, id) => {
-    e.stopPropagation(); //prevent modal pop up to open
-    e.preventDefault();//prevent modal pop up to open
+    e.stopPropagation();
+    e.preventDefault();
 
     //find the target object
     let targetPhoto = images.imageData.find(e => e.id === id);
@@ -49,8 +47,8 @@ const Feed = () => {
 
   //================== Add photo to favorite ================== 
   const addToFavorite = (e, id) => {
-    e.stopPropagation(); //prevent modal pop up to open
-    e.preventDefault();//prevent modal pop up to open
+    e.stopPropagation(); 
+    e.preventDefault();
 
     //find the target object
     let targetPhoto = images.imageData.find(e => e.id === id);
