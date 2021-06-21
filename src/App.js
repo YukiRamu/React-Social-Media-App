@@ -37,7 +37,7 @@ const App = () => {
                 <Route exact path="/post" component={Post} />
                 <Route exact path="/login" />
               </Switch>
-              <Footer />
+              {/* <Footer /> */}
             </ScrollToTop>
           </Router>
         </PostProvider>
