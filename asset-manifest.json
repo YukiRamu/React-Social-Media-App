@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/WMAD-React-Mid-term/static/css/main.e32fa82b.chunk.css",
+    "main.js": "/WMAD-React-Mid-term/static/js/main.6b1d2671.chunk.js",
+    "main.js.map": "/WMAD-React-Mid-term/static/js/main.6b1d2671.chunk.js.map",
+    "runtime-main.js": "/WMAD-React-Mid-term/static/js/runtime-main.e5b84aea.js",
+    "runtime-main.js.map": "/WMAD-React-Mid-term/static/js/runtime-main.e5b84aea.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/WMAD-React-Mid-term/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.fdd70166.chunk.js": "/WMAD-React-Mid-term/static/js/2.fdd70166.chunk.js",
+    "static/js/2.fdd70166.chunk.js.map": "/WMAD-React-Mid-term/static/js/2.fdd70166.chunk.js.map",
+    "static/js/3.4b15c003.chunk.js": "/WMAD-React-Mid-term/static/js/3.4b15c003.chunk.js",
+    "static/js/3.4b15c003.chunk.js.map": "/WMAD-React-Mid-term/static/js/3.4b15c003.chunk.js.map",
+    "index.html": "/WMAD-React-Mid-term/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/WMAD-React-Mid-term/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.e32fa82b.chunk.css.map": "/WMAD-React-Mid-term/static/css/main.e32fa82b.chunk.css.map",
+    "static/js/2.fdd70166.chunk.js.LICENSE.txt": "/WMAD-React-Mid-term/static/js/2.fdd70166.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5b84aea.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.fdd70166.chunk.js",
+    "static/css/main.e32fa82b.chunk.css",
+    "static/js/main.6b1d2671.chunk.js"
+  ]
+}
